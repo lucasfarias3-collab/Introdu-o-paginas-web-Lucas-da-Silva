@@ -1,0 +1,39 @@
+/* Seletor de elemento */
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+}
+
+/* Seletor por ID */
+#topo {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Seletor por classe */
+.lista-times {
+    color: blue;
+}
+
+/* Outro seletor de elemento */
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Pseudoclasse */
+a:hover {
+    color: red;
+}
+
+/* Outra pseudoclasse */
+li:hover {
+    background-color: yellow;
+}
