@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #e6ecf0;
+}
+
+/* CABEÇALHO */
+.header{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1{
+    margin: 0;
+    font-size: 40px;
+}
+
+/* MENU */
+.menu{
+    background-color: #111;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: #00ccff;
+}
+
+/* CONTAINER */
+.container{
+    width: 85%;
+    margin: 20px auto;
+}
+
+/* CONTEÚDO */
+.content{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    min-height: 500px;
+}
+
+/* RODAPÉ */
+.footer{
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* STATIC */
+.static-box{
+    position: static;
+    background-color: #74b9ff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+/* RELATIVE */
+.relative-box{
+    position: relative;
+    left: 30px;
+
+    background-color: #55efc4;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* ABSOLUTE */
+.absolute-container{
+    position: relative;
+    height: 220px;
+    background-color: #dfe6e9;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.absolute-box{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+
+    background-color: #ffeaa7;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* FIXED */
+.fixed-box{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+
+    background-color: #ff7675;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* STICKY */
+.sticky-box{
+    position: sticky;
+    top: 0;
+
+    background-color: #81ecec;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
